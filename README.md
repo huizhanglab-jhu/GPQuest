@@ -1,4 +1,5 @@
-# GPQuest version 2.1
+# GPQuest 
+A search engine for N-linked intact glycopeptide identification in HCD tandem mass spectrometry experiment.
 
 Authors: Yingwei Hu (yhu39@jhmi.edu), Shadi Toghi Eshghi <br>
 Please send email to yhu39@jhmi.edu, if you need older releases of GPQuest.
