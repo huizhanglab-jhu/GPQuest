@@ -1,6 +1,18 @@
 # GPQuest 
 A search engine for N-linked intact glycopeptide identification in HCD tandem mass spectrometry experiment.
 
+Version 2.1 (2019)<br>
+1. Update the isotopic peaks validation<br>
+
+Version 2.0 (2018)<br>
+1. Rewrite the software in pure Python language
+1. Use fragment ion index to speed up searching<br>
+2. Add support to use glycopeptide sequences as well as spectral library<br>
+
+Version 1.0 (2015)<br>
+Build spectral library for N-linked Glycopeptide identification (Matlab)
+
+
 Authors: Yingwei Hu (yhu39@jhmi.edu), Shadi Toghi Eshghi <br>
 Please send email to yhu39@jhmi.edu, if you need older releases of GPQuest.
 
