@@ -1,6 +1,10 @@
 # GPQuest 
 A search engine for N-linked intact glycopeptide identification in HCD tandem mass spectrometry experiment.
 
+Version 2.1.2 (2023) <br>
+1. Update supporting of .fasta file
+2. Use sqlite for ion index searching
+
 Version 2.1 (2019)<br>
 1. Update the isotopic peaks validation<br>
 
