@@ -1,0 +1,410 @@
+{
+  "MASS": {
+    "AA": {
+      "G": 57.021464,
+      "A": 71.037114,
+      "S": 87.032028,
+      "T": 101.047678,
+      "C": 103.009184,
+      "V": 99.068414,
+      "L": 113.084064,
+      "I": 113.084064,
+      "M": 131.040485,
+      "P": 97.052764,
+      "F": 147.068414,
+      "Y": 163.063329,
+      "W": 186.079313,
+      "D": 115.026943,
+      "E": 129.042593,
+      "N": 114.042927,
+      "Q": 128.058578,
+      "H": 137.058912,
+      "K": 128.094963,
+      "R": 156.101111,
+      "U": 115.026943,
+      "+": 1.0072825
+    },
+    "GPF": {
+      "mass": [
+        0,
+        83.0371137878,
+        203.0794,
+        349.1373,
+        406.1588,
+        0,
+        203.0794,
+        349.1373,
+        406.1588,
+        0,
+        203.0794,
+        349.1373,
+        406.1588
+      ],
+      "charge": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.333333,
+        0.333333,
+        0.333333,
+        0.333333
+      ],
+      "names": [
+        "Pep(+)",
+        "PepHalfHexNac(+)",
+        "PepHexNac(+)",
+        "PepHexNacFuc(+)",
+        "Pep2HexNAc(+)",
+        "Pep(++)",
+        "PepHexNAc(++)",
+        "PepHexNacFuc(++)",
+        "Pep2HexNAc(++)",
+        "Pep(+++)",
+        "PepHexNAc(+++)",
+        "PepHexNacFuc(+++)",
+        "Pep2HexNAc(+++)"
+      ]
+    },
+    "MIC": {
+      "nterm": 1.00732,
+      "cterm": 17.0032445,
+      "C12": 12.00,
+      "C13": 13.0033548378,
+      "H+": 1.00732,
+      "1H": 1.0078250321,
+      "H2O": 18.0105646863,
+      "O16": 15.99491,
+      "NH2": 16.018724
+    },
+    "MOD": {
+      "Oxidation": 15.9949146221,
+      "Carbamidomethyl": 57.0214637236,
+      "Phospho": 79.966331,
+      "Guanidynation": 42.0217980746,
+      "Aniline": 75.0472845436,
+      "LightPT": 89.0629346078,
+      "HeavyPT": 96.106871829840003,
+      "TMT10plex": 229.162932,
+      "TMT11plex": 229.162932,
+      "TMT16plex": 304.207146,
+      "iTRAQ4plex": 144.102063,
+      "iTRAQ8plex": 304.205360,
+      "ethanol": 28.0313
+    },
+    "GLYCAN": {
+      "H": 162.0528,
+      "N": 203.0794,
+      "F": 146.0579,
+      "S": 291.0954,
+      "G": 307.0903
+    },
+    "LABEL": {
+      "TMT10plex": {
+        "channels": [
+          "126",
+          "127N",
+          "127C",
+          "128N",
+          "128C",
+          "129N",
+          "129C",
+          "130N",
+          "130C",
+          "131"
+        ],
+        "ions":[
+          126.127725,
+          127.124760,
+          127.131079,
+          128.128114,
+          128.134433,
+          129.131468,
+          129.137787,
+          130.134822,
+          130.141141,
+          131.138176
+        ],
+        "FIXMOD": 229.162932
+      },
+      "TMT11plex": {
+        "channels": [
+          "126",
+          "127N",
+          "127C",
+          "128N",
+          "128C",
+          "129N",
+          "129C",
+          "130N",
+          "130C",
+          "131",
+          "131C"
+        ],
+        "ions":[
+          126.127725,
+          127.124760,
+          127.131079,
+          128.128114,
+          128.134433,
+          129.131468,
+          129.137787,
+          130.134822,
+          130.141141,
+          131.138176,
+          131.144499
+        ],
+        "FIXMOD": 229.162932
+      },
+      "TMT16plex": {
+        "channels": [
+          "126",
+          "127N",
+          "127C",
+          "128N",
+          "128C",
+          "129N",
+          "129C",
+          "130N",
+          "130C",
+          "131",
+          "131C",
+          "132N",
+          "132C",
+          "133N",
+          "133C",
+          "134N"
+        ],
+        "ions":[
+          126.127725,
+          127.124760,
+          127.131079,
+          128.128114,
+          128.134433,
+          129.131468,
+          129.137787,
+          130.134822,
+          130.141141,
+          131.138176,
+          131.144499,
+          132.141535,
+          132.147855,
+          133.14489,
+          133.15121,
+          134.148245
+        ],
+        "FIXMOD": 304.207146
+      },
+      "iTRAQ4plex": {
+        "channels": [
+          "114",
+          "115",
+          "116",
+          "117"
+        ],
+        "ions": [
+          114.110680,
+          115.107715,
+          116.111069,
+          117.114424
+        ],
+        "FIXMOD": 144.102063
+      },
+      "iTRAQ8plex": {
+        "channels": [
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "119",
+          "121"
+        ],
+        "ions": [
+          113.107873,
+          114.111228,
+          115.108263,
+          116.111618,
+          117.114973,
+          118.112008,
+          119.115363,
+          121.122072
+        ],
+        "FIXMOD": 304.205360
+      }
+        
+    },
+    "OXONIUM_IONS": {
+      "HexNAc": 204.0866,
+      "Hex_Marker_C6H4O2": 109.028,
+      "Hex_Marker_C5H6O3": 115.039,
+      "HexNAc_Marker_C6H7O2N1": 126.055,
+      "Hex-2H2O": 127.039,
+      "HexNAc_Marker_C7H7O2N1": 138.055,
+      "HexNAc_Marker_C6H9O3N1": 144.066,
+      "UNKNOWN1": 145.0495,
+      "Hex": 163.0601,
+      "HexNAc-2H2O": 168.0655,
+      "HexNAc-H2O": 186.0761,
+      "NeuAc-H2O": 274.0927,
+      "NeuGc-H2O": 290.087,
+      "NeuAc": 292.1032,
+      "NeuGc": 308.098,
+      "UNKNOWN2": 325.1135,
+      "Hex+HexNAc": 366.140,
+      "Hex+HexNAc+NeuAc": 657.140,
+      "Hex+HexNAc+NeuGc": 673.230
+    }
+  },
+  "WORKFLOW": {
+    "PREPROCESS": [
+      "RemoveZeros",
+      "RemoveReporterIons",
+      "TopPeaks",
+      "OxoFilter",
+      "GlycanPredictor"
+    ],
+    "SEARCH": [
+      "ION INDEX SEARCH"
+    ],
+    "REFINE": [
+      "Spectral Library Searching"
+    ],
+    "VALIDATION": [
+      "FDR"
+    ],
+    "MSCORRECTION": {
+      "SCAN_WINDOW": 5
+    }
+  },
+  "SEARCH": {
+    "CORES": 8,
+    "LABEL": "None",
+    "MAX_RANK": 5,
+    "MODE": "SPEG",
+    "SCANS": [],
+    "KEEP": "ALL",
+    "SAVE_SPLIB": "YES",
+    "FORCE_RENEW": 0,
+    "MODIFICATIONS": {
+      "MAX_OPT_MOD": 2,
+      "mods": [
+        "C2H3N1O1,C,fix,any,Carbamidomethyl,c",
+        "O1,M,opt,any,Oxidation,m"
+      ],
+      "glycan_mods":[
+      ]
+    },
+    "MASS_TOLERANCE": {
+      "MS1(PPM)": 10,
+      "MS2(PPM)": 20,
+      "MIN": 0.005
+    },
+    "CHARGE": {
+      "max": 5,
+      "min": 2
+    },
+    "MASS_SHIFT": [
+      -2,
+      -1,
+      0
+    ],
+    "FRAGMENTS": {
+      "CHARGE": 2,
+      "IONS": [
+        "b",
+        "y"
+      ]
+    },
+    "INTACT_GLYCOPEPTIDE": {
+      "NUMBER": {
+        "1,5": 3,
+        "6,10": 2,
+        "11,15": 1,
+        "16,INF": 0
+      },
+      "ESSENTIAL_IONS": [],
+      "NONESSENTIAL_IONS": {
+        "pep": [
+          1,
+          2,
+          3
+        ],
+        "pep and half HexNac": [
+          1
+        ],
+        "pep and HexNac": [
+          1,
+          2,
+          3
+        ],
+        "pep and HexNac,Fuc": [
+          1
+        ],
+        "pep and 2HexNAc": [
+          1
+        ],
+        "pep and HexNAc": [
+          2
+        ]
+      }
+    },
+    "PEPTIDE_FRAGMENT": {
+      "MIN_NUMBER": 0,
+      "MIN_RATIO": 0.1
+    },
+    "FDR": 0.0045
+  },
+  "PREPROCESS": {
+    "ISOTOPE_WINDOW": {
+      "HALF_MONO_WINDOW": 10
+    },
+    "PEAK_SELECTION": {
+      "TOPN": 100
+    },
+    "OXONIUM_IONS": {
+      "TOPN": 10,
+      "ESS_IONS": [
+      	"HexNAc"
+      ],
+      "NON_ESS_IONS": [
+        "HexNAc_Marker_C7H7O2N1",
+        "UNKNOWN1",
+        "Hex",
+        "HexNAc-2H2O",
+        "HexNAc-H2O",
+        "NeuAc-H2O",
+        "NeuGc-H2O",
+        "NeuAc",
+        "NeuGc",
+        "UNKNOWN2",
+        "Hex+HexNAc"
+      ]
+    }
+  },
+  "DATABASE": {
+    "PATH": {
+      "PROTEIN": "C:\\Users\\Administrator\\Downloads\\MS-PyCloud\\revision\\database\\protein\\Human_ReviewedCanonical_20201Entries_25thJuly_2017.fasta",
+      "NGLYCAN": "C:\\Users\\Administrator\\Downloads\\MS-PyCloud\\revision\\database\\glycans\\N_Glycans_HGICommon_179.xlsx",
+      "OGLYCAN": "C:\\Users\\Administrator\\Downloads\\MS-PyCloud\\revision\\database\\glycans\\OglycansCFG_Weiming.xlsx"
+    },
+    "PROTEIN_DIGEST": {
+      "PROTEASES": [
+        "Trypsin"
+      ],
+      "MIN_PEP_LEN": 7,
+      "MAX_PEP_LEN": 50,
+      "MISSED_CLEAVAGES": 2
+    },
+    "ION_INDEX": {
+      "FACTOR": 10,
+      "MIN_IONS": 6
+    }
+  }
+}
